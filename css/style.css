@@ -1,0 +1,410 @@
+@charset "UTF-8";
+/*header*/
+.container {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.top_green_banner {
+  width: 100%;
+  background: linear-gradient(
+    109.6deg,
+    rgba(100, 215, 175, 0.16) 11.2%,
+    rgba(118, 178, 137, 1) 99.8%
+  );
+  padding-top: auto;
+  padding-bottom: auto;
+  clear: left;
+  /*	linear-gradient(90deg, #d3d8a9 1%, #727242 70%, #666633  100%); */
+}
+.title {
+  font-weight: bold;
+  font-style: normal;
+  font-family: "Source Sans Pro";
+  text-align: center;
+  color: #000000;
+  letter-spacing: 2px;
+}
+.white_nav_bar {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(
+    110.8deg,
+    rgba(250, 243, 195, 0.37) 11.4%,
+    rgba(249, 229, 229, 0.41) 30.9%,
+    rgba(238, 252, 222, 1) 48.1%,
+    rgba(254, 237, 240, 0.25) 65%,
+    rgba(252, 244, 211, 1) 81.8%,
+    rgba(171, 232, 241, 0.05) 91.3%,
+    rgba(219, 230, 207, 1) 99.9%
+  );
+  clear: left;
+}
+
+.container .white_nav_bar ul {
+  margin-top: 0%;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 15px;
+  padding-left: 0px;
+  width: 100%;
+}
+.white_nav_bar ul li {
+  list-style: none;
+  float: left;
+  margin-right: auto;
+  margin-top: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-weight: normal;
+  color: #000000;
+  letter-spacing: 1px;
+  margin-left: auto;
+  text-align: center;
+  width: 16%;
+  transition: all 0.3s linear;
+}
+.white_nav_bar ul li:hover {
+  color: #000000;
+  cursor: pointer;
+}
+/*section  index.html*/
+.introduction {
+  float: left;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  color: #000000;
+}
+
+.intro {
+  margin: 0px auto 20px auto;
+}
+
+.resume {
+  margin: 80px 265px auto 0px;
+  width: 40%;
+  float: right;
+  padding: auto 80px auto 0px;
+}
+
+article.hackos {
+  padding: 0 12em;
+}
+/*All pages*/
+.reflection {
+  width: 45%;
+  margin: auto 0px auto 40px;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.artifact_background {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  width: 45%;
+}
+
+.provider > .artifact_background {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+main {
+  padding-top: 30px;
+}
+
+main.index > .reflections,
+main.index > .artifact_background {
+  width: 50%;
+}
+
+main.hackos > .artifact_background {
+  flex-direction: column;
+}
+
+main.hackos > .reflection,
+main.hackos > .artifact_background {
+  width: initial;
+}
+
+main.hackos > .reflection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main.hackos .reflection__left,
+main.hackos .reflection__right {
+  width: 50%;
+}
+
+main.hackos .reflection__right {
+  background: aliceblue;
+  display: grid;
+  place-items: center;
+}
+
+main.hackos .hackos__art_heading {
+  text-align: right;
+}
+
+.hackos__art_title {
+  text-align: center;
+}
+main.provider > .artifact_background > img {
+  width: 55%;
+  object-fit: contain;
+}
+
+main.vw > .artifact_background,
+main.aj_remodels > .artifact_background {
+  display: grid;
+  place-items: center;
+}
+
+/*section solar.html*/
+.infographic {
+}
+/*section provider.html*/
+.provider {
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+/*mobile view*/
+
+/*section hackos.html*/
+
+.hackos_author {
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
+    "sans-serif";
+  margin: auto 0px auto 900px;
+  font-size: 40px;
+}
+
+.hackos_book_title {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  margin: auto 0px auto 920px;
+  font-size: 25px;
+}
+
+.hackos_book_title_after_colon {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  margin: auto 0px auto 765px;
+  font-size: 17px;
+}
+
+.course_number {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  margin: auto 0px auto 1140px;
+  font-size: 10px;
+}
+
+.course_title {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  margin: auto 0px auto 1043px;
+  font-size: 10px;
+}
+
+.hackos {
+  
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+/*section vw.html*/
+.vw_website {
+  font-size: 50px;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
+    "sans-serif";
+}
+/*section aj.html*/
+
+.aj_website {
+  font-size: 50px;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
+    "sans-serif";
+}
+/*footer*/
+.footer {
+  background: linear-gradient(
+    109.6deg,
+    rgba(100, 215, 175, 0.16) 11.2%,
+    rgba(118, 178, 137, 1) 99.8%
+  );
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  margin: 0 auto;
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  clear: left;
+}
+
+/* tiny screen */
+@media (max-width: 320px) {
+  .white_nav_bar ul li {
+    float: none;
+    margin-top: 28px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .container .white_nav_bar ul {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+  .white_nav_bar {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 1px;
+    padding-bottom: 40px;
+  }
+
+  .resume {
+    width: 100%;
+    margin-top: 22px;
+    margin-right: 0px;
+    margin-bottom: 22px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    max-width: 400px;
+    max-height: 200px;
+    height: auto;
+  }
+  .container .introduction h3 {
+    margin-top: 30px;
+  }
+
+  .reflection,
+  .artifact_background  {
+    width: 100%;
+  }
+
+  
+}
+
+/* mobile screen */
+@media (min-width: 321px) and (max-width: 768px) {
+  .white_nav_bar ul li {
+    float: none;
+    margin-top: 28px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .container .white_nav_bar ul {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+  .white_nav_bar {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 1px;
+    padding-bottom: 40px;
+  }
+  .introduction {
+    width: 100%;
+    height: auto;
+  }
+
+  main.index > .artifact_background {
+	  width: 100%;
+  }
+  .resume {
+    width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+	margin: 0;
+  }
+
+  .resume > img {
+	  width: 100%;
+	  object-fit: contain;
+  }
+
+  .reflection,
+  .artifact_background {
+    width: 100% ;
+	margin: 0 0 2em;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  main.hackos .reflection {
+	  gap: 15px;
+  }
+
+  main.hackos .reflection__right, main.hackos .reflection__left {
+    width: 100% ;
+  }
+
+  article.hackos {
+	  padding: 0;
+  }
+
+  .hackos_author , .hackos_book_title, .hackos_book_title_after_colon, .course_number, .course_title {
+	  margin: 0;
+  }
+}
+
+/* tablet */
+@media (min-width: 769px) and (max-width: 1000px) {
+  .white_nav_bar {
+    overflow: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .white_nav_bar ul li {
+    margin-top: 10px;
+    margin-right: 7%;
+    margin-bottom: 10px;
+    margin-left: 7%;
+  }
+  .introduction {
+    height: auto;
+  }
+  .resume {
+    height: auto;
+    padding-bottom: 27px;
+  }
+}
