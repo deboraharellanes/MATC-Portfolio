@@ -42,6 +42,10 @@
   clear: left;
 }
 
+header a, .artifact_background a
+ {
+	text-decoration: none;
+}
 .container .white_nav_bar ul {
   margin-top: 0%;
   margin-right: auto;
@@ -385,6 +389,11 @@ main {
   .hackos_author , .hackos_book_title, .hackos_book_title_after_colon, .course_number, .course_title {
 	  margin: 0;
   }
+
+  main.provider > .artifact_background > img {
+	width: 100%;
+	
+  }
 }
 
 /* tablet */
@@ -407,4 +416,28 @@ main {
     height: auto;
     padding-bottom: 27px;
   }
+
+  main.hackos .reflection {
+	gap: 15px;
+}
+
+main.hackos .reflection__right, main.hackos .reflection__left {
+  width: 100% ;
+}
+
+article.hackos {
+	padding: 0;
+}
+
+.hackos_author , .hackos_book_title, .hackos_book_title_after_colon, .course_number, .course_title {
+	margin: 0;
+}
+
+main.hackos > .reflection {
+	margin: 0;
+}
+
+main.hackos >  .artifact_background {
+	margin-top: 35px;
+}
 }
