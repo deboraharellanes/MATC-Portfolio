@@ -95,6 +95,12 @@ header a, .artifact_background a
   padding: auto 80px auto 0px;
 }
 
+.resume_format{
+  display: flex;
+  justify-content: center;
+  width: 45%;
+}
+
 article.hackos {
   padding: 0 12em;
 }
