@@ -163,11 +163,13 @@ main.aj_remodels > .artifact_background {
   place-items: center;
 }
 
-/*section solar.html*/
-.infographic {
-}
-/*section provider.html*/
-.provider {
+.brochure_links {
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px 200px;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-color: black;
 }
 
 main {
