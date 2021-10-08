@@ -6,15 +6,10 @@
 }
 .top_green_banner {
   width: 100%;
-  background: linear-gradient(
-    109.6deg,
-    rgba(100, 215, 175, 0.16) 11.2%,
-    rgba(118, 178, 137, 1) 99.8%
-  );
+  background: linear-gradient( 109.6deg, rgba(100, 215, 175, 0.16) 11.2%, rgba(118, 178, 137, 1) 99.8%);
   padding-top: auto;
   padding-bottom: auto;
   clear: left;
-  /*	linear-gradient(90deg, #d3d8a9 1%, #727242 70%, #666633  100%); */
 }
 .title {
   font-weight: bold;
@@ -28,21 +23,12 @@
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
-  background: linear-gradient(
-    110.8deg,
-    rgba(250, 243, 195, 0.37) 11.4%,
-    rgba(249, 229, 229, 0.41) 30.9%,
-    rgba(238, 252, 222, 1) 48.1%,
-    rgba(254, 237, 240, 0.25) 65%,
-    rgba(252, 244, 211, 1) 81.8%,
-    rgba(171, 232, 241, 0.05) 91.3%,
-    rgba(219, 230, 207, 1) 99.9%
-  );
+  background: linear-gradient(110.8deg, rgba(250, 243, 195, 0.37) 11.4%, rgba(249, 229, 229, 0.41) 30.9%, rgba(238, 252, 222, 1) 48.1%, rgba(254, 237, 240, 0.25) 65%, rgba(252, 244, 211, 1) 81.8%,
+   rgba(171, 232, 241, 0.05) 91.3%, rgba(219, 230, 207, 1) 99.9%);
   clear: left;
 }
 
-header a, .artifact_background a
- {
+header a, .artifact_background a {
 	text-decoration: none;
 }
 .container .white_nav_bar ul {
@@ -315,8 +301,6 @@ main {
   .artifact_background  {
     width: 100%;
   }
-
-  
 }
 
 /* mobile screen */
@@ -397,8 +381,7 @@ main {
 
   main.provider > .artifact_background > img {
 	width: 100%;
-	
-  }
+	}
 }
 
 /* tablet */
@@ -444,5 +427,4 @@ main.hackos > .reflection {
 
 main.hackos >  .artifact_background {
 	margin-top: 35px;
-}
 }
