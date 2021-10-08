@@ -169,7 +169,14 @@ main.aj_remodels > .artifact_background {
   margin: 5px 200px;
   font-size: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-color: black;
+
+}
+.solarlink {
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px 200px;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {
