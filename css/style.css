@@ -163,20 +163,12 @@ main.aj_remodels > .artifact_background {
   place-items: center;
 }
 
-.brochure_links {
+.brochure_links a {
   text-decoration: none;
+  font-size: 50px;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,"sans-serif";
   padding: 5px;
-  margin: 5px 200px;
-  font-size: 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-.solarlink {
-  text-decoration: none;
-  padding: 5px;
-  margin: 5px 200px;
-  font-size: 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px 920px 0px 0px;
 }
 
 main {
