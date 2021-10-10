@@ -11,7 +11,8 @@
   padding-bottom: auto;
   clear: left;
 }
-.title {
+
+.title{  
   font-weight: bold;
   font-style: normal;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -19,6 +20,7 @@
   color: #000000;
   letter-spacing: 2px;
   padding-bottom: 20px;
+
 }
 .white_nav_bar {
   width: 100%;
@@ -59,7 +61,6 @@ header a, .artifact_background a {
   transition: all 0.3s linear;
 }
 .white_nav_bar ul li:hover {
-  color: #000000;
   cursor: pointer;
 }
 /*section  index.html*/
@@ -169,6 +170,7 @@ main.aj_remodels > .artifact_background {
   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,"sans-serif";
   padding: 5px;
   margin: 0px 920px 0px 0px;
+  color: #000000; 
 }
 
 main {
@@ -226,6 +228,7 @@ main {
   font-size: 50px;
   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
     "sans-serif";
+    color: #000000;
 }
 /*section aj.html*/
 
@@ -233,6 +236,7 @@ main {
   font-size: 50px;
   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
     "sans-serif";
+    color: #000000;
 }
 /*footer*/
 .footer {
