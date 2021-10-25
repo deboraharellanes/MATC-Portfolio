@@ -6,33 +6,45 @@
 }
 .top_green_banner {
   width: 100%;
-  background: linear-gradient( 109.6deg, rgba(100, 215, 175, 0.16) 11.2%, rgba(118, 178, 137, 1) 99.8%);
+  background: linear-gradient(
+    109.6deg,
+    rgba(100, 215, 175, 0.16) 11.2%,
+    rgba(118, 178, 137, 1) 99.8%
+  );
   padding-top: auto;
   padding-bottom: auto;
   clear: left;
 }
 
-.title{  
+.title {
   font-weight: bold;
   font-style: normal;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   color: #000000;
   letter-spacing: 2px;
   padding-bottom: 20px;
-
 }
 .white_nav_bar {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
-  background: linear-gradient(110.8deg, rgba(250, 243, 195, 0.37) 11.4%, rgba(249, 229, 229, 0.41) 30.9%, rgba(238, 252, 222, 1) 48.1%, rgba(254, 237, 240, 0.25) 65%, rgba(252, 244, 211, 1) 81.8%,
-   rgba(171, 232, 241, 0.05) 91.3%, rgba(219, 230, 207, 1) 99.9%);
+  background: linear-gradient(
+    110.8deg,
+    rgba(250, 243, 195, 0.37) 11.4%,
+    rgba(249, 229, 229, 0.41) 30.9%,
+    rgba(238, 252, 222, 1) 48.1%,
+    rgba(254, 237, 240, 0.25) 65%,
+    rgba(252, 244, 211, 1) 81.8%,
+    rgba(171, 232, 241, 0.05) 91.3%,
+    rgba(219, 230, 207, 1) 99.9%
+  );
   clear: left;
 }
 
-header a, .artifact_background a {
-	text-decoration: none;
+header a,
+.artifact_background a {
+  text-decoration: none;
 }
 .container .white_nav_bar ul {
   margin-top: 0%;
@@ -53,15 +65,19 @@ header a, .artifact_background a {
   font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
     "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
   font-weight: normal;
-  color: #000000;
   letter-spacing: 1px;
   margin-left: auto;
   text-align: center;
   width: 16%;
   transition: all 0.3s linear;
 }
-.white_nav_bar ul li:hover {
+.white_nav_bar ul li a {
+  color: #000000;
+  font-size: 20px;
+}
+.white_nav_bar ul li a:hover {
   cursor: pointer;
+  font-size: 15px;
 }
 /*section  index.html*/
 .introduction {
@@ -167,10 +183,11 @@ main.aj_remodels > .artifact_background {
 .brochure_links a {
   text-decoration: none;
   font-size: 50px;
-  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,"sans-serif";
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
+    "sans-serif";
   padding: 5px;
   margin: 0px 920px 0px 0px;
-  color: #000000; 
+  color: #000000;
 }
 
 main {
@@ -218,7 +235,6 @@ main {
 }
 
 .hackos {
-  
   font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
     "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
@@ -228,7 +244,7 @@ main {
   font-size: 50px;
   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
     "sans-serif";
-    color: #000000;
+  color: #000000;
 }
 /*section aj.html*/
 
@@ -236,7 +252,7 @@ main {
   font-size: 50px;
   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
     "sans-serif";
-    color: #000000;
+  color: #000000;
 }
 /*footer*/
 .footer {
@@ -304,7 +320,7 @@ main {
   }
 
   .reflection,
-  .artifact_background  {
+  .artifact_background {
     width: 100%;
   }
 }
@@ -344,24 +360,24 @@ main {
   }
 
   main.index > .artifact_background {
-	  width: 100%;
+    width: 100%;
   }
   .resume {
     width: 100%;
     height: auto;
     padding-bottom: 25px;
-	margin: 0;
+    margin: 0;
   }
 
   .resume > img {
-	  width: 100%;
-	  object-fit: contain;
+    width: 100%;
+    object-fit: contain;
   }
 
   .reflection,
   .artifact_background {
-    width: 100% ;
-	margin: 0 0 2em;
+    width: 100%;
+    margin: 0 0 2em;
   }
 
   .container {
@@ -370,24 +386,29 @@ main {
   }
 
   main.hackos .reflection {
-	  gap: 15px;
+    gap: 15px;
   }
 
-  main.hackos .reflection__right, main.hackos .reflection__left {
-    width: 100% ;
+  main.hackos .reflection__right,
+  main.hackos .reflection__left {
+    width: 100%;
   }
 
   article.hackos {
-	  padding: 0;
+    padding: 0;
   }
 
-  .hackos_author , .hackos_book_title, .hackos_book_title_after_colon, .course_number, .course_title {
-	  margin: 0;
+  .hackos_author,
+  .hackos_book_title,
+  .hackos_book_title_after_colon,
+  .course_number,
+  .course_title {
+    margin: 0;
   }
 
   main.provider > .artifact_background > img {
-	width: 100%;
-	}
+    width: 100%;
+  }
 }
 
 /* tablet */
@@ -412,25 +433,31 @@ main {
   }
 
   main.hackos .reflection {
-	gap: 15px;
-}
+    gap: 15px;
+  }
 
-main.hackos .reflection__right, main.hackos .reflection__left {
-  width: 100% ;
-}
+  main.hackos .reflection__right,
+  main.hackos .reflection__left {
+    width: 100%;
+  }
 
-article.hackos {
-	padding: 0;
-}
+  article.hackos {
+    padding: 0;
+  }
 
-.hackos_author , .hackos_book_title, .hackos_book_title_after_colon, .course_number, .course_title {
-	margin: 0;
-}
+  .hackos_author,
+  .hackos_book_title,
+  .hackos_book_title_after_colon,
+  .course_number,
+  .course_title {
+    margin: 0;
+  }
 
-main.hackos > .reflection {
-	margin: 0;
-}
+  main.hackos > .reflection {
+    margin: 0;
+  }
 
-main.hackos >  .artifact_background {
-	margin-top: 35px;
+  main.hackos > .artifact_background {
+    margin-top: 35px;
+  }
 }
